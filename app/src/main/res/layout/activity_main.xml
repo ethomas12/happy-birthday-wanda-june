@@ -3,23 +3,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.happybirthday.MainActivity">
+    tools:context="com.example.android.happybirthday.MainActivity"
+    android:background="#000000">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:layout_above="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:scaleType="center"
+                android:src="@drawable/trident" />
+
+            <TextView
+                android:text="Happy Birthday Wanda June"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45sp"
+                android:textColor="#efbd26"
+                android:padding="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:text="From Elaine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                android:padding="20dp"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/textView"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+    </android.support.constraint.ConstraintLayout>
 
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
 
-        <TextView android:text="Happy Birthday Wanda June" android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView android:text="From Elaine" android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true" />
-
-    </RelativeLayout>
-
-</android.support.constraint.ConstraintLayout>
