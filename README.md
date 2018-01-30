@@ -5,6 +5,6 @@ Working with Android Beginner Google Scholarship via Udacity
 
 Using Android Studio 
 
-AVD Nexus 5 API version 27
+Using a Nexus 5x for deployment
 
 Kurt V FTW
