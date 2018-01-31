@@ -1,8 +1,9 @@
 # happy-birthday-wanda-june
-## My first Android app
+## Static page birthday card
+### My first app
 
-Working with Android Beginner Google Scholarship via Udacity
-
+Grow with Google Scholarship: Android Basics
+ 
 Using Android Studio 
 
 Using a Nexus 5x for deployment
